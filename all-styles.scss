@@ -1,0 +1,27 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+// Page's styles
+@import "header";
+@import "our-mission";
+
+.body{
+  overflow: hidden;
+  height: 100%;
+}
+
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
